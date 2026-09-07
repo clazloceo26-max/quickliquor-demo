@@ -1,0 +1,60 @@
+{
+  "name": "quickliquor-demo",
+  "displayName": "QuickLiquor Demo",
+  "description": "Premium on-demand alcohol delivery platform - investor-ready demo",
+  "version": "1.0.0",
+  "author": "QuickLiquor Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clazloceo26-max/quickliquor-demo"
+  },
+  "features": {
+    "authentication": "Phone OTP login with compliance check",
+    "storeDiscovery": "Location-based nearby stores with licensing info",
+    "productBrowsing": "5 product categories with search and filters",
+    "cart": "Persistent floating cart with quantity controls",
+    "checkout": "Multi-step checkout with promos and age verification",
+    "payments": "UPI, Cards, Wallet, Cash on Delivery",
+    "compliance": "Age gating, license verification, responsible messaging",
+    "tracking": "Real-time order status with delivery ETA",
+    "orderHistory": "Past orders and reorder functionality"
+  },
+  "screens": [
+    "Splash Screen",
+    "Login (OTP)",
+    "Location Permission",
+    "Home Dashboard",
+    "Store Detail",
+    "Product Listing",
+    "Shopping Cart",
+    "Age Verification Gate",
+    "Payment Methods",
+    "Order Confirmation",
+    "Live Tracking",
+    "Order History"
+  ],
+  "designSystem": {
+    "colors": {
+      "primary": "#FF6B35",
+      "secondary": "#004E89",
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "dark": "#1A1A1A",
+      "light": "#F8F9FA"
+    },
+    "typography": "Inter",
+    "borderRadius": "12px - 16px",
+    "responsive": "Mobile-first"
+  },
+  "techStack": [
+    "Next.js 14",
+    "React 18",
+    "TypeScript",
+    "Tailwind CSS",
+    "Zustand",
+    "Lucide Icons"
+  ],
+  "deployment": "Vercel",
+  "status": "Production-Ready Demo"
+}
